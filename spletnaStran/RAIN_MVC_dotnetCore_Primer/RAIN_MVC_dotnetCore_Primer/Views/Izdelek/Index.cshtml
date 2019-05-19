@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Vaja3.Models.Novica>
+
+@{
+    ViewData["Title"] = "Novice";
+}
+<h2>Novice</h2>
+<p>
+    <a asp-action="Create">Ustvari novo novico</a>
+</p>
+<form asp-action="Search" asp-controller="Izdelek">
+    <div class="form-group">
+        <label class="control-label">Iskanje</label>
+        <input class="form-control" name="SearchString" />
+        <span class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Search" class="btn btn-default" />
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.avtor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.besedilo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td class="@(((HashSet<int>)ViewBag.oznaceni)?.Contains(item.id) ?? false ? "oznacen" : "")">
+                @Html.DisplayFor(modelItem => item.avtor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.besedilo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datum)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Uredi</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Podrobnosti</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Izbriši</a> |
+                <a asp-action="Oznaci" asp-route-id="@item.id">Preberi kasneje</a>
+            </td>
+        </tr>
+        
+        }
+        <a asp-action="logout" asp-controller="account">Ozdnači vse (pobriši sejo)</a>
+    </tbody>
+</table>

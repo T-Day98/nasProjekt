@@ -1,0 +1,48 @@
+﻿@model Vaja3.Models.Novica
+
+@{
+    ViewData["Title"] = "Ustvarjanje novice";
+}
+
+<h2>Ustvari novico</h2>
+
+<h4>Novica</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="avtor" class="control-label"></label>
+                <input asp-for="avtor" class="form-control" value="@User.Identity.Name" readonly="readonly"/>
+                <span asp-validation-for="avtor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="naziv" class="control-label"></label>
+                <input asp-for="naziv" class="form-control" />
+                <span asp-validation-for="naziv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="besedilo" class="control-label"></label>
+                <input asp-for="besedilo" class="form-control" />
+                <span asp-validation-for="besedilo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="datum" class="control-label"></label>
+                <input asp-for="datum" class="form-control" />
+                <span asp-validation-for="datum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Nazaj na novice</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

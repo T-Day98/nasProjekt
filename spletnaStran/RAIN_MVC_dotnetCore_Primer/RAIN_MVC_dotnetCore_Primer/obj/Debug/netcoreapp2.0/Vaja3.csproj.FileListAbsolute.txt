@@ -1,0 +1,11 @@
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\bin\Debug\netcoreapp2.0\Vaja3.deps.json
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\bin\Debug\netcoreapp2.0\Vaja3.runtimeconfig.json
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\bin\Debug\netcoreapp2.0\Vaja3.runtimeconfig.dev.json
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\bin\Debug\netcoreapp2.0\Vaja3.dll
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\bin\Debug\netcoreapp2.0\Vaja3.pdb
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.csprojResolveAssemblyReference.cache
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.csproj.CoreCompileInputs.cache
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.AssemblyInfoInputs.cache
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.AssemblyInfo.cs
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.dll
+C:\SOLA\2Letnik\DrugiSemester\RazvojAplikacijZaInternet\Vaja3\RAIN_MVC_dotnetCore_Primer\RAIN_MVC_dotnetCore_Primer\obj\Debug\netcoreapp2.0\Vaja3.pdb

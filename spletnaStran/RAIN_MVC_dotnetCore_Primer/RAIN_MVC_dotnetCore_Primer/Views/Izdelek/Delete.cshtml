@@ -1,0 +1,45 @@
+﻿@model Vaja3.Models.Novica
+
+@{
+    ViewData["Title"] = "Brisanje";
+}
+
+<h2>Brisanje</h2>
+
+<h3>Si prepričan da žeiš izbrisati?</h3>
+<div>
+    <h4>Izdelek</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.avtor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.avtor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.naziv)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.naziv)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.besedilo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.besedilo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datum)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datum)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Nazaj na novice</a>
+    </form>
+</div>

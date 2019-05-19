@@ -1,0 +1,42 @@
+﻿@model Vaja3.Models.Novica
+
+@{
+    ViewData["Title"] = "Podrobnosti";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Izdelek</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.avtor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.avtor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.naziv)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.naziv)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.besedilo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.besedilo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datum)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datum)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id">Uredi</a> |
+    <a asp-action="Index">Nazaj na novice</a>
+</div>
